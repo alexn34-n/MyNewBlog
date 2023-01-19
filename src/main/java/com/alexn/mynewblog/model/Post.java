@@ -49,7 +49,7 @@ public class Post {
         this.content = content;
     }
 
-    public Instant getCreatedOn() {
+    public Instant getCreatedOn(Instant now) {
         return createdOn;
     }
 
